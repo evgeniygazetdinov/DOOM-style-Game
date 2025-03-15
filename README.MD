@@ -5,17 +5,17 @@ A REST API service built with Django REST Framework featuring authentication wit
 ## Features
 - User registration with phone/email
 - Bearer token authentication with 5-minute expiry
-- Token auto-renewal on requests
-- CORS enabled for all domains
 - Latency check endpoint
-- Token management
+
 
 ## API Endpoints
+` every endpoint test covered `
 - `/signup` - Register with ID (phone/email) and password
 - `/signin` - Login with credentials
 - `/info` - Get user information
 - `/latency` - Check latency to ya.ru
 - `/logout` - Logout (single or all sessions)
+
 
 ## Setup
 1. Clone the repository
