@@ -1,0 +1,5 @@
+/env
+*.pyc
+__debug*
+.vscode/
+db.sqlite3
